@@ -1,14 +1,14 @@
-neomorphix-light-uix:
-  uix-theme: neomorphix-light-uix
-  ha-card-background: "#f0f0f0"
+NeoMorphix UIX Light Inset:
+  uix-theme: NeoMorphix UIX Light Inset
+  ha-card-background: "#e8e8e8"
   primary-background-color: "#f0f0f0"
   secondary-background-color: "#e8e8e8"
-  card-background-color: "#f0f0f0"
+  card-background-color: "#e8e8e8"
   divider-color: "#d8d8d8"
   neu-shadow-light: "#ffffff"
   neu-shadow-dark: "#dedede"
-  neu-shadow-raised: "4px 4px 12px #dedede, -4px -4px 12px #ffffff"
-  neu-shadow-inset: "inset 2px 2px 5px #dedede, inset -2px -2px 5px #ffffff"
+  neu-shadow-raised: "inset 4px 4px 8px #d0d0d0, inset -4px -4px 8px #ffffff"
+  neu-shadow-inset: "inset 4px 4px 8px #d0d0d0, inset -4px -4px 8px #ffffff"
   neu-shadow-flat: "2px 2px 4px #dedede, -2px -2px 4px #ffffff"
   primary-color: "#6c7ae0"
   accent-color: "#6c7ae0"
@@ -19,14 +19,14 @@ neomorphix-light-uix:
   secondary-text-color: "#606470"
   disabled-text-color: "#8a909e"
   text-primary-color: "#2c2f3a"
-  label-badge-text-color: "#2c2f3a"
+  label-badge-text-color: "#ffffff"
   ha-card-border-radius: "20px"
   ha-card-border-width: "0px"
   ha-card-border-color: "transparent"
   neu-radius: "20px"
   neu-radius-sm: "14px"
   neu-radius-xs: "10px"
-  ha-card-box-shadow: "4px 4px 12px #dedede, -4px -4px 12px #ffffff, inset 1px 1px 0px #ffffff"
+  ha-card-box-shadow: "inset 4px 4px 8px #d0d0d0, inset -4px -4px 8px #ffffff"
   app-header-background-color: "#f0f0f0"
   app-header-text-color: "#2c2f3a"
   app-header-selection-bar-color: "#6c7ae0"
@@ -65,7 +65,7 @@ neomorphix-light-uix:
   uix-root-yaml: |
     .: |
       ha-card[outlined] {
-        --ha-card-border-color: #e0e0e0 !important;
+        --ha-card-border-color: #d8d8d8 !important;
         --ha-card-border-width: 1px !important;
       }
   uix-drawer-yaml: |
@@ -75,18 +75,17 @@ neomorphix-light-uix:
         color: #ffffff !important;
       }
 
-
-neomorphix-dark-uix:
-  uix-theme: neomorphix-dark-uix
-  ha-card-background: "#262b35"
+NeoMorphix UIX Dark Inset:
+  uix-theme: NeoMorphix UIX Dark Inset
+  ha-card-background: "#1a1e25"
   primary-background-color: "#1e2128"
   secondary-background-color: "#191c22"
-  card-background-color: "#262b35"
+  card-background-color: "#1a1e25"
   divider-color: "#3a4055"
   neu-shadow-light: "#2d3340"
   neu-shadow-dark: "#13161c"
-  neu-shadow-raised: "3px 3px 7px #13161c, -3px -3px 7px #2d3340"
-  neu-shadow-inset: "inset 2px 2px 5px #13161c, inset -2px -2px 5px #2d3340"
+  neu-shadow-raised: "inset 4px 4px 8px #0e1014, inset -4px -4px 8px #323847"
+  neu-shadow-inset: "inset 4px 4px 8px #0e1014, inset -4px -4px 8px #323847"
   neu-shadow-flat: "2px 2px 4px #13161c, -2px -2px 4px #2d3340"
   primary-color: "#5de0d8"
   accent-color: "#5de0d8"
@@ -104,7 +103,7 @@ neomorphix-dark-uix:
   neu-radius: "20px"
   neu-radius-sm: "14px"
   neu-radius-xs: "10px"
-  ha-card-box-shadow: "3px 3px 7px #13161c, -3px -3px 7px #2d3340, inset 1px 1px 0px #3a3f4d"
+  ha-card-box-shadow: "inset 4px 4px 8px #0e1014, inset -4px -4px 8px #323847"
   app-header-background-color: "#1e2128"
   app-header-text-color: "#e2e8f0"
   app-header-selection-bar-color: "#5de0d8"
@@ -153,18 +152,17 @@ neomorphix-dark-uix:
         color: #191c22 !important;
       }
 
-
-neomorphix-claude-uix:
-  uix-theme: neomorphix-claude-uix
-  ha-card-background: "#ede8e3"
+NeoMorphix UIX Claude Inset:
+  uix-theme: NeoMorphix UIX Claude Inset
+  ha-card-background: "#e5e0db"
   primary-background-color: "#ede8e3"
   secondary-background-color: "#e4ddd7"
-  card-background-color: "#ede8e3"
+  card-background-color: "#e5e0db"
   divider-color: "#d8d2cc"
   neu-shadow-light: "#ffffff"
   neu-shadow-dark: "#d4cec8"
-  neu-shadow-raised: "4px 4px 12px #d4cec8, -4px -4px 12px #ffffff"
-  neu-shadow-inset: "inset 2px 2px 5px #d4cec8, inset -2px -2px 5px #ffffff"
+  neu-shadow-raised: "inset 4px 4px 8px #cac4be, inset -4px -4px 8px #ffffff"
+  neu-shadow-inset: "inset 4px 4px 8px #cac4be, inset -4px -4px 8px #ffffff"
   neu-shadow-flat: "2px 2px 4px #d4cec8, -2px -2px 4px #ffffff"
   primary-color: "#d97757"
   accent-color: "#d97757"
@@ -182,7 +180,7 @@ neomorphix-claude-uix:
   neu-radius: "20px"
   neu-radius-sm: "14px"
   neu-radius-xs: "10px"
-  ha-card-box-shadow: "4px 4px 12px #d4cec8, -4px -4px 12px #ffffff, inset 1px 1px 0px #ffffff"
+  ha-card-box-shadow: "inset 4px 4px 8px #cac4be, inset -4px -4px 8px #ffffff"
   app-header-background-color: "#ede8e3"
   app-header-text-color: "#2d2620"
   app-header-selection-bar-color: "#d97757"

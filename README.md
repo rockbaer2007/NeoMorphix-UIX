@@ -8,8 +8,8 @@ NeuMorphix ships with **6 original card-mod variants**. This branch additionally
 
 | Style | card-mod Light | card-mod Dark | card-mod Claude | UIX Light | UIX Dark | UIX Claude |
 |-------|----------------|---------------|-----------------|-----------|----------|------------|
-| **Raised** | `neumorphix-light` | `neumorphix-dark` | `neumorphix-claude` | `neomorphix-light-uix` | `neomorphix-dark-uix` | `neomorphix-claude-uix` |
-| **Inset** | `neumorphix-light-inset` | `neumorphix-dark-inset` | `neumorphix-claude-inset` | `neomorphix-light-uix-inset` | `neomorphix-dark-uix-inset` | `neomorphix-claude-uix-inset` |
+| **Raised** | `neumorphix-light` | `neumorphix-dark` | `neumorphix-claude` | `NeoMorphix UIX Light` | `NeoMorphix UIX Dark` | `NeoMorphix UIX Claude` |
+| **Inset** | `neumorphix-light-inset` | `neumorphix-dark-inset` | `neumorphix-claude-inset` | `NeoMorphix UIX Light Inset` | `NeoMorphix UIX Dark Inset` | `NeoMorphix UIX Claude Inset` |
 
 - **Raised** variants give cards and elements a soft, extruded look — the classic neumorphic style.
 - **Inset** variants flip the effect so elements appear pressed into the surface.
@@ -50,7 +50,7 @@ frontend:
   themes: !include_dir_merge_named themes
 ```
 
-The original NeuMorphix theme files still target card-mod. NeoMorphix UIX uses the additional `neomorphix-*-uix` theme variants.
+The original NeuMorphix theme files still target card-mod. NeoMorphix UIX uses the additional `NeoMorphix UIX ...` theme variants.
 
 After restarting, go to **Settings → General** and pick a NeoMorphix UIX variant from the **Theme** dropdown — or set it per-dashboard in the dashboard settings.
 
@@ -76,12 +76,12 @@ After restarting, go to **Settings → General** and pick a NeoMorphix UIX varia
 - `neumorphix-light-inset` — light inset neumorphic
 - `neumorphix-dark-inset` — dark inset neumorphic
 - `neumorphix-claude-inset` — claude-inspired inset neumorphic
-- `neomorphix-light-uix` — light raised neumorphic for UIX
-- `neomorphix-dark-uix` — dark raised neumorphic for UIX
-- `neomorphix-claude-uix` — claude-inspired raised neumorphic for UIX
-- `neomorphix-light-uix-inset` — light inset neumorphic for UIX
-- `neomorphix-dark-uix-inset` — dark inset neumorphic for UIX
-- `neomorphix-claude-uix-inset` — claude-inspired inset neumorphic for UIX
+- `NeoMorphix UIX Light` — light raised neumorphic for UIX
+- `NeoMorphix UIX Dark` — dark raised neumorphic for UIX
+- `NeoMorphix UIX Claude` — claude-inspired raised neumorphic for UIX
+- `NeoMorphix UIX Light Inset` — light inset neumorphic for UIX
+- `NeoMorphix UIX Dark Inset` — dark inset neumorphic for UIX
+- `NeoMorphix UIX Claude Inset` — claude-inspired inset neumorphic for UIX
 
 ## License
 
