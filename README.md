@@ -2,12 +2,12 @@
 
 A neumorphic theme for [Home Assistant](https://www.home-assistant.io/) that brings soft shadows, rounded surfaces, and a tactile 3D feel to your dashboards.
 
-NeuMorphix ships with **6 theme variants** across two styles:
+NeuMorphix ships with **12 theme variants** across two styles and two styling engines:
 
-| Style | Light | Dark | Claude |
-|-------|-------|------|--------|
-| **Raised** | `neumorphix-light` | `neumorphix-dark` | `neumorphix-claude` |
-| **Inset** | `neumorphix-light-inset` | `neumorphix-dark-inset` | `neumorphix-claude-inset` |
+| Style | card-mod Light | card-mod Dark | card-mod Claude | UIX Light | UIX Dark | UIX Claude |
+|-------|----------------|---------------|-----------------|-----------|----------|------------|
+| **Raised** | `neumorphix-light` | `neumorphix-dark` | `neumorphix-claude` | `neumorphix-light-uix` | `neumorphix-dark-uix` | `neumorphix-claude-uix` |
+| **Inset** | `neumorphix-light-inset` | `neumorphix-dark-inset` | `neumorphix-claude-inset` | `neumorphix-light-uix-inset` | `neumorphix-dark-uix-inset` | `neumorphix-claude-uix-inset` |
 
 - **Raised** variants give cards and elements a soft, extruded look — the classic neumorphic style.
 - **Inset** variants flip the effect so elements appear pressed into the surface.
@@ -15,12 +15,12 @@ NeuMorphix ships with **6 theme variants** across two styles:
 > [!NOTE]
 > **Inset themes and the Settings page**
 >
-> The inset theme variants do not apply to the main Settings page. The Settings page is part of Home Assistant's core UI and is rendered differently from dashboard views, which means theme tools like card-mod cannot reach it. Every other page — including all dashboard views and all Settings sub-pages — themes correctly.
+> The inset theme variants do not apply to the main Settings page. The Settings page is part of Home Assistant's core UI and is rendered differently from dashboard views, which means theme tools like card-mod or UIX may not reach it. Every other page — including all dashboard views and all Settings sub-pages — themes correctly.
 
 ## Prerequisites
 
 - **Home Assistant** 2023.9.0 or newer
-- **[card-mod](https://github.com/thomasloven/lovelace-card-mod)** — install it through HACS before installing NeuMorphix
+- **[card-mod](https://github.com/thomasloven/lovelace-card-mod)** or **[UIX](https://github.com/Lint-Free-Technology/uix)** — install your preferred styling engine through HACS before installing NeuMorphix
 
 ## Installation
 
@@ -36,12 +36,14 @@ NeuMorphix ships with **6 theme variants** across two styles:
 ### Manual
 
 1. Download the `themes/` folder from this repository.
-2. Copy `neumorphix.yaml` and `neumorphix-inset.yaml` into your Home Assistant `config/themes/` directory.
+2. Copy the theme files you want to use into your Home Assistant `config/themes/` directory.
 3. Restart Home Assistant.
 
 ## Configuration
 
-Make sure your `configuration.yaml` includes the frontend integration with the card-mod resource:
+Make sure your `configuration.yaml` includes the frontend integration with the required resource.
+
+For card-mod themes:
 
 ```yaml
 frontend:
@@ -49,6 +51,8 @@ frontend:
   extra_module_url:
     - /hacsfiles/lovelace-card-mod/card-mod.js
 ```
+
+For UIX themes, install UIX and add the UIX resource according to the UIX documentation.
 
 After restarting, go to **Settings → General** and pick a NeuMorphix variant from the **Theme** dropdown — or set it per-dashboard in the dashboard settings.
 
@@ -74,6 +78,12 @@ After restarting, go to **Settings → General** and pick a NeuMorphix variant f
 - `neumorphix-light-inset` — light inset neumorphic
 - `neumorphix-dark-inset` — dark inset neumorphic
 - `neumorphix-claude-inset` — claude-inspired inset neumorphic
+- `neumorphix-light-uix` — light raised neumorphic for UIX
+- `neumorphix-dark-uix` — dark raised neumorphic for UIX
+- `neumorphix-claude-uix` — claude-inspired raised neumorphic for UIX
+- `neumorphix-light-uix-inset` — light inset neumorphic for UIX
+- `neumorphix-dark-uix-inset` — dark inset neumorphic for UIX
+- `neumorphix-claude-uix-inset` — claude-inspired inset neumorphic for UIX
 
 ## License
 
