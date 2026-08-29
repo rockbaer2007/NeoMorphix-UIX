@@ -1,15 +1,15 @@
-# NeuMorphix
+# NeoMorphix UIX
 
 [![Open your Home Assistant instance and add this repository to HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=rockbaer2007&repository=NeumorphixHome&category=theme)
 
 A neumorphic theme for [Home Assistant](https://www.home-assistant.io/) that brings soft shadows, rounded surfaces, and a tactile 3D feel to your dashboards.
 
-NeuMorphix ships with **12 theme variants** across two styles and two styling engines:
+NeuMorphix ships with **6 original card-mod variants**. This branch additionally adds **6 NeoMorphix UIX variants**:
 
 | Style | card-mod Light | card-mod Dark | card-mod Claude | UIX Light | UIX Dark | UIX Claude |
 |-------|----------------|---------------|-----------------|-----------|----------|------------|
-| **Raised** | `neumorphix-light` | `neumorphix-dark` | `neumorphix-claude` | `neumorphix-light-uix` | `neumorphix-dark-uix` | `neumorphix-claude-uix` |
-| **Inset** | `neumorphix-light-inset` | `neumorphix-dark-inset` | `neumorphix-claude-inset` | `neumorphix-light-uix-inset` | `neumorphix-dark-uix-inset` | `neumorphix-claude-uix-inset` |
+| **Raised** | `neumorphix-light` | `neumorphix-dark` | `neumorphix-claude` | `neomorphix-light-uix` | `neomorphix-dark-uix` | `neomorphix-claude-uix` |
+| **Inset** | `neumorphix-light-inset` | `neumorphix-dark-inset` | `neumorphix-claude-inset` | `neomorphix-light-uix-inset` | `neomorphix-dark-uix-inset` | `neomorphix-claude-uix-inset` |
 
 - **Raised** variants give cards and elements a soft, extruded look — the classic neumorphic style.
 - **Inset** variants flip the effect so elements appear pressed into the surface.
@@ -22,7 +22,7 @@ NeuMorphix ships with **12 theme variants** across two styles and two styling en
 ## Prerequisites
 
 - **Home Assistant** 2023.9.0 or newer
-- **[card-mod](https://github.com/thomasloven/lovelace-card-mod)** or **[UIX](https://github.com/Lint-Free-Technology/uix)** — install your preferred styling engine through HACS before installing NeuMorphix
+- **[card-mod](https://github.com/thomasloven/lovelace-card-mod)** or **[UIX](https://github.com/Lint-Free-Technology/uix)** — install your preferred styling engine through HACS before installing NeoMorphix UIX
 
 ## Installation
 
@@ -32,7 +32,7 @@ NeuMorphix ships with **12 theme variants** across two styles and two styling en
 2. Go to **Frontend** (the three-dot menu in the top right).
 3. Select **Custom repositories**.
 4. Add the URL of this repository and choose **Theme** as the category.
-5. Search for **NeuMorphix** in HACS and install it.
+5. Search for **NeoMorphix UIX** in HACS and install it.
 6. Restart Home Assistant.
 
 ### Manual
@@ -56,7 +56,7 @@ frontend:
 
 For UIX themes, install UIX and add the UIX resource according to the UIX documentation.
 
-After restarting, go to **Settings → General** and pick a NeuMorphix variant from the **Theme** dropdown — or set it per-dashboard in the dashboard settings.
+After restarting, go to **Settings → General** and pick a NeuMorphix or NeoMorphix UIX variant from the **Theme** dropdown — or set it per-dashboard in the dashboard settings.
 
 ## Screenshots
 
@@ -80,12 +80,12 @@ After restarting, go to **Settings → General** and pick a NeuMorphix variant f
 - `neumorphix-light-inset` — light inset neumorphic
 - `neumorphix-dark-inset` — dark inset neumorphic
 - `neumorphix-claude-inset` — claude-inspired inset neumorphic
-- `neumorphix-light-uix` — light raised neumorphic for UIX
-- `neumorphix-dark-uix` — dark raised neumorphic for UIX
-- `neumorphix-claude-uix` — claude-inspired raised neumorphic for UIX
-- `neumorphix-light-uix-inset` — light inset neumorphic for UIX
-- `neumorphix-dark-uix-inset` — dark inset neumorphic for UIX
-- `neumorphix-claude-uix-inset` — claude-inspired inset neumorphic for UIX
+- `neomorphix-light-uix` — light raised neumorphic for UIX
+- `neomorphix-dark-uix` — dark raised neumorphic for UIX
+- `neomorphix-claude-uix` — claude-inspired raised neumorphic for UIX
+- `neomorphix-light-uix-inset` — light inset neumorphic for UIX
+- `neomorphix-dark-uix-inset` — dark inset neumorphic for UIX
+- `neomorphix-claude-uix-inset` — claude-inspired inset neumorphic for UIX
 
 ## License
 

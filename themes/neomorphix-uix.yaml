@@ -1,5 +1,5 @@
-neumorphix-light-uix:
-  uix-theme: neumorphix-light-uix
+neomorphix-light-uix:
+  uix-theme: neomorphix-light-uix
   ha-card-background: "#f0f0f0"
   primary-background-color: "#f0f0f0"
   secondary-background-color: "#e8e8e8"
@@ -76,8 +76,8 @@ neumorphix-light-uix:
       }
 
 
-neumorphix-dark-uix:
-  uix-theme: neumorphix-dark-uix
+neomorphix-dark-uix:
+  uix-theme: neomorphix-dark-uix
   ha-card-background: "#262b35"
   primary-background-color: "#1e2128"
   secondary-background-color: "#191c22"
@@ -154,8 +154,8 @@ neumorphix-dark-uix:
       }
 
 
-neumorphix-claude-uix:
-  uix-theme: neumorphix-claude-uix
+neomorphix-claude-uix:
+  uix-theme: neomorphix-claude-uix
   ha-card-background: "#ede8e3"
   primary-background-color: "#ede8e3"
   secondary-background-color: "#e4ddd7"
@@ -230,4 +230,3 @@ neumorphix-claude-uix:
         background-color: #d97757 !important;
         color: #ffffff !important;
       }
-

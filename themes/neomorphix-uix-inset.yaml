@@ -1,5 +1,5 @@
-neumorphix-light-uix-inset:
-  uix-theme: neumorphix-light-uix-inset
+neomorphix-light-uix-inset:
+  uix-theme: neomorphix-light-uix-inset
   ha-card-background: "#e8e8e8"
   primary-background-color: "#f0f0f0"
   secondary-background-color: "#e8e8e8"
@@ -75,8 +75,8 @@ neumorphix-light-uix-inset:
         color: #ffffff !important;
       }
 
-neumorphix-dark-uix-inset:
-  uix-theme: neumorphix-dark-uix-inset
+neomorphix-dark-uix-inset:
+  uix-theme: neomorphix-dark-uix-inset
   ha-card-background: "#1a1e25"
   primary-background-color: "#1e2128"
   secondary-background-color: "#191c22"
@@ -152,8 +152,8 @@ neumorphix-dark-uix-inset:
         color: #191c22 !important;
       }
 
-neumorphix-claude-uix-inset:
-  uix-theme: neumorphix-claude-uix-inset
+neomorphix-claude-uix-inset:
+  uix-theme: neomorphix-claude-uix-inset
   ha-card-background: "#e5e0db"
   primary-background-color: "#ede8e3"
   secondary-background-color: "#e4ddd7"
@@ -228,5 +228,3 @@ neumorphix-claude-uix-inset:
         background-color: #d97757 !important;
         color: #ffffff !important;
       }
-
-
