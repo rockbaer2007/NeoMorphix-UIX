@@ -22,7 +22,7 @@ NeuMorphix ships with **6 original card-mod variants**. This branch additionally
 ## Prerequisites
 
 - **Home Assistant** 2023.9.0 or newer
-- **[card-mod](https://github.com/thomasloven/lovelace-card-mod)** or **[UIX](https://github.com/Lint-Free-Technology/uix)** — install your preferred styling engine through HACS before installing NeoMorphix UIX
+- **[UIX](https://github.com/Lint-Free-Technology/uix)** — install UIX through HACS before installing NeoMorphix UIX
 
 ## Installation
 
@@ -43,20 +43,16 @@ NeuMorphix ships with **6 original card-mod variants**. This branch additionally
 
 ## Configuration
 
-Make sure your `configuration.yaml` includes the frontend integration with the required resource.
-
-For card-mod themes:
+Make sure your `configuration.yaml` includes the frontend integration and the UIX resource according to the UIX documentation.
 
 ```yaml
 frontend:
   themes: !include_dir_merge_named themes
-  extra_module_url:
-    - /hacsfiles/lovelace-card-mod/card-mod.js
 ```
 
-For UIX themes, install UIX and add the UIX resource according to the UIX documentation.
+The original NeuMorphix theme files still target card-mod. NeoMorphix UIX uses the additional `neomorphix-*-uix` theme variants.
 
-After restarting, go to **Settings → General** and pick a NeuMorphix or NeoMorphix UIX variant from the **Theme** dropdown — or set it per-dashboard in the dashboard settings.
+After restarting, go to **Settings → General** and pick a NeoMorphix UIX variant from the **Theme** dropdown — or set it per-dashboard in the dashboard settings.
 
 ## Screenshots
 
